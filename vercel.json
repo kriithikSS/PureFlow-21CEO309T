@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/Dataset/:match*",
+      "destination": "https://indiawris.gov.in/Dataset/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
